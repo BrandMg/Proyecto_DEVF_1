@@ -76,6 +76,7 @@ textarea {
     padding: 8px;
     border: 1px solid #bbb;
     margin-top: 4px;
+    box-sizing: border-box; 
 }
 
 input[type="submit"] {
@@ -106,4 +107,15 @@ footer {
     display: inline;
     font-weight: bold;
     color: #4b4ba8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.caja-galeria {
+    padding: 20px;
+    border: 3px solid #4b4ba8;
+    margin-bottom: 20px;
+    box-sizing: content-box; 
 }
