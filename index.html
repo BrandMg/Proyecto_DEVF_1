@@ -85,7 +85,7 @@
     </section>
 
 
-    <section id="curiosidades" class="caja">
+    <section id="curiosidades" class="caja relativo">
         <h2>Curiosidades de las Nebulosas</h2>
         <ul>
             <li> A pesar de su tamaño gigantesco, la densidad de una nebulosa es tan baja que sería imposible detectarla como un objeto sólido si estuvieras dentro de ella.</li>
@@ -150,18 +150,27 @@
         <p>Si deseas recibir más información, completa este formulario:</p>
 
         <form>
-            <label for="nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre"><br><br>
+            <div class="campo">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre">
+            </div>
 
-            <label for="correo">Correo:</label><br>
-            <input type="email" id="correo" name="correo"><br><br>
+            <div class="campo">
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo">
+            </div>
 
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea><br><br>
+            <div class="campo" style="flex: 1 1 100%;">
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
 
-            <input type="submit" value="Enviar">
+            <div class="boton">
+                <input type="submit" value="Enviar">
+            </div>
         </form>
     </section>
+
 
     <footer>
         <hr>

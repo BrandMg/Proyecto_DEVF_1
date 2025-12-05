@@ -20,11 +20,12 @@ header {
     background-color: #4b4ba8;
     color: white;
 
+
+
     position: sticky;
     top: 0;
     background-color: #4b4ba8;
     z-index: 1000;
-
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25); /* ← sombra suave */
 }
 
@@ -58,7 +59,8 @@ nav a:hover {
     padding: 20px;
     width: 90%;
     max-width: 1000px;
-    font-family: Arial, Helvetica, sans-serif
+    position: static;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .lista-destacada li {
@@ -141,3 +143,27 @@ footer {
     font-family: "Georgia", "Times New Roman", serif;
 }
 
+
+#contacto form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+#contacto form .campo {
+    flex: 1 1 220px;
+}
+
+#contacto form .campo textarea {
+    min-height: 120px;
+}
+
+#contacto form .boton {
+    flex: 1 1 100%;
+}
+
+.relativo {
+    position: relative;
+    top: 20px; 
+}
