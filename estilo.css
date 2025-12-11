@@ -19,9 +19,6 @@ header {
     padding: 10px;
     background-color: #4b4ba8;
     color: white;
-
-
-
     position: sticky;
     top: 0;
     background-color: #4b4ba8;
@@ -111,13 +108,23 @@ input[type="submit"]:hover {
     background-color: #37378a;
 }
 
-footer {
+.footer {
+    display: flex; 
+    position: fixed;
     text-align: center;
-    padding: 15px;
+    padding: 18px 22px;
     font-size: 0.9em;
-    background-color: #ececff;
+    background-color: #afafdf;
     margin-top: 30px;
+    justify-content: space-between; 
+    align-items: center;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    gap: 12px;
+    flex-wrap: wrap;
 }
+
 
 .destacar {
     background-color: #ececff;
@@ -194,4 +201,17 @@ footer {
 .relativo {
     position: relative;
     top: 20px; 
+}
+
+.footer button {
+  background-color: #7a7e7a; 
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.footer button:hover {
+  background-color: #969b97; 
 }
