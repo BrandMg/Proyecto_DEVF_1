@@ -215,3 +215,75 @@ input[type="submit"]:hover {
 .footer button:hover {
   background-color: #969b97; 
 }
+
+
+@media (max-width: 1024px) {
+    .caja {
+        width: 92%;
+    }
+
+    .galeria-contenedor .caja-galeria {
+        flex: 1 1 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 12px 8px;
+    }
+
+    #titulo-principal {
+        font-size: 1.9rem;
+    }
+
+    nav ul {
+        gap: 6px;
+    }
+
+    nav ul li {
+        padding: 6px 10px;
+    }
+
+    .caja {
+        width: 94%;
+        padding: 16px;
+    }
+
+    .galeria-contenedor {
+        gap: 14px;
+    }
+
+     .footer button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+    #titulo-principal {
+        font-size: 1.6rem;
+    }
+
+    .caja {
+        width: 96%;
+        padding: 14px;
+    }
+
+    #contacto form {
+        gap: 10px;
+    }
+
+    #contacto form .campo {
+        flex: 1 1 100%;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+
+    .footer button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
