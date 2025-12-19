@@ -157,11 +157,6 @@ input[type="submit"]:hover {
     list-style: disc inside;   
 }
 
-
-#tipos {
-    font-family: "Georgia", "Times New Roman", serif;
-}
-
 .galeria-contenedor {
     display: flex;
     flex-wrap: wrap;
